@@ -1,0 +1,66 @@
+
+.container {
+    width: 500px;
+    height: 541px;
+    margin: 100px auto;
+}
+.container table {
+    border: none;
+    
+}
+.container .first {
+     height: 45px;
+}
+.second {
+    height: 130px;
+}
+.second>td {
+    width: 20px;
+}
+.container td {
+    border: 5px solid #3c3c3c;
+    padding: 10px;
+}
+#a, #c, #h {
+    background: #fff472;
+}
+#b {
+    background: #ff5f42;
+    width: 270px;
+}
+#d, #e {
+    width: 50px;
+}
+#f {
+    height: 130px;
+    background: #000;
+}
+#g, #i {
+    width: 130px;
+}
+#o {
+    background: #000;
+}
+#p {
+    background: #074682;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
