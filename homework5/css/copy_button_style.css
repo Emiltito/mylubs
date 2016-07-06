@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Helvetica Neu';
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ body {
+    background-image: url(../image/bg.png);
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.header {
+    height: 35px;
+    background-color: #074c89;
+    background-image: url(../image/menufon.png);
+}
+
+.menu {
+    float: right;
+    margin-right: 20px;
+}
+
+.menu ul{
+    float: left;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.menu li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu a{
+    font-size: 14px;
+    font-family: "Helvetica Neu", Arial, sans-serif;
+    line-height: 35px;
+    padding: 0px 7px;
+}
+
+.first a{
+    color: #60b5ed;
+    text-decoration: none;
+    display: block;
+}
+
+/*.first li:last-child {
+  border-right: 3px solid #56a2dc;
+  padding: 2px 0px
+}*/
+
+.first li:hover {
+    background-color: #4eabda;
+    transition: 0.5s all;
+}
+.first a:hover{
+    display: block;
+    color: #fff;
+}
+
+.second a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.third {
+    background: linear-gradient(to bottom, #51b1dc 0%, #2e7ac4 100%);
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-color: #469bd4;
+    padding: 0px 10px;
+    height: 34px;
+}
+
+.text {
+    padding: 0px 5px 0px 5px ;
+    font-size: 14px;
+    font-family: "Helvetica Neu", Arial, sans-serif;
+    color: #fff;
+}
+
+.third a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    text-decoration: underline;
+    padding: 0px 5px;
+}
+
+.wrapper {
+   position: relative;
+    margin: 0px auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center {
+    position: relative;
+    text-align: center;
+    width: 560px;
+    height: 614px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 215px auto 205px auto;
+    
+}
+
+.zagolovok {
+  padding:  24px 0px;
+  border-bottom: 2px solid #b7c2b4; 
+  font-family: "Helvetica Neu", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
+
+.form-center {
+    position: relative;
+}
+
+.facebook {
+    position: relative;
+    border-top: 1px solid #758ab9;
+    width: 276px;
+    height: 35px;
+    margin: 35px auto;
+    border-radius: 5px; 
+
+}
+
+.facebook_btn {
+    width: 276px;
+    height: 35px;
+    background: linear-gradient(to bottom, #3e5596 0%, #304172 100%);
+    border-radius: 5px;
+    border: none;
+}
+
+.f {
+    
+    line-height: 34px;
+    width: 37px;
+    font-size: 18px;
+    font-weight: bold;
+    border-right: 1px solid #2c3a61;
+    color: #fff;
+    text-align: left;
+}
+
+.text-bold1-f {
+    line-height: 34px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 3px;
+}
+
+.text-bold2-f {
+    line-height: 34px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 3px;
+}
+
+.text-bold2-f::after{
+    content: " ";
+    position: absolute;
+    border: 8px solid;
+    border-color: transparent transparent transparent #eeeeee;
+    top: 10px;
+    right: 10px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    line-height: 34px;
+    
+}
+
+.text-f {
+    line-height: 34px;
+    font-size: 14px;
+    padding: 3px;
+    color: #fff;
+}
